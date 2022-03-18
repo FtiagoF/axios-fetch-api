@@ -8,7 +8,7 @@ You can fetch any API in your React APP using this repository.
 
 First step, you need to clone the this project, you need to create a .env file at root folder, that contains you API KEY. I'm using a quiz api (https://quizapi.io/), so in my .env file i defined my key as REACT_APP_QUIZAPI_KEY=<Your_key_here>.
 
-second step, in he projec directory, you can run 
+second step, in the project directory, you can run 
 
 ### `npm start`
 
