@@ -1,10 +1,10 @@
 # Axios API fetch in React
 
-## Only for study and practice purpose.
+#### :computer: Only for study and practice purpose.
 
 You can fetch any API in your React APP using this repository.
 
-# How can I run this project? 
+# :question: How can I run this project? 
 
 First step, you need to clone the this project, you need to create a .env file at root folder, that contains you API KEY. I'm using a quiz api (https://quizapi.io/), so in my .env file i defined my key as REACT_APP_QUIZAPI_KEY=<Your_key_here>.
 
@@ -12,7 +12,7 @@ second step, in the project directory, you can run
 
 ### `npm start`
 
-# Why Quiz API?
+# :question: Why Quiz API?
 
 My next project is a quiz to test my knowledge about Linux, Cloud, Container, BASH, HTML, SQl, etc. So how i didn't want to waste time searching and registering questions i diceded to use an API.
 
