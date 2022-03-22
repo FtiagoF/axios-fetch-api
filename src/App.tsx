@@ -28,16 +28,14 @@ function App() {
     <ul>
       { isFetching && <p>Carregando...</p> }
       { Error && alert(Error.message) }
-      { questions?.map(quest => {
+      { questions?.map((quest:any) => {
         return (
           <li key={quest.id}>          
             <p><strong>{quest.id}</strong> - {quest.question}</p>
             <ol>
-              <li>{quest.answers.answer_a}</li>
-              <li>{quest.answers.answer_b}</li>
-              <li>{quest.answers.answer_c}</li>
-              <li>{quest.answers.answer_d }</li>
-              <li>{quest.answers.answer_e}</li>
+              {Object.keys(quest.answers).map((answer) => (
+                <li key={(answer.split('_')[1])}>{quest.answers[answer]}</li>
+              ))}
             </ol>
           </li>          
         );
